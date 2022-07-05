@@ -1,33 +1,25 @@
 i = 1
 j = 1
-while True:
-    while True:
+while i<6:
+    while j<6:
         if i%2==0 and j%2==0:
             print(" ",end="")
         else:
             print("*",end="")
-        i+=1
-        if i>5:
-            print()
-            i = 1
-            break
-    j+=1
-    if j>5:
-        print()
-        j = 1
-        break
-
-while True:
-    while True:
-        if i==j:
+        j+=1
+    print()
+    j=1
+    i+=1
+print()
+a=0
+b=0
+while a<5:
+    while b<5:
+        if a==b:
             print(" ",end="")
         else:
             print("*",end="")
-        i+=1
-        if i>5:
-            print()
-            i = 1
-            break
-    j+=1
-    if j>5:
-        break
+        b+=1
+    print()
+    b=0
+    a+=1
