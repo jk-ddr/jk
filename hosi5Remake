@@ -1,0 +1,15 @@
+#     *
+#    * *
+#   *   *
+#  *     *
+# *********
+n = int(input()) #세로줄 수 입력
+for col in range(n): #세로줄 수만큼 반복
+    for blk in range(n-1-col): #공백 출력
+        print(" ",end="")
+    for star in range(2*col+1): #별 출력
+        if col==n-1 or star==0 or star==2*col:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
