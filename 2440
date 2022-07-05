@@ -1,0 +1,21 @@
+'''
+*****
+****
+***
+**
+*
+'''
+'''
+col = 5
+row = 5
+
+for i in range(col):
+    for j in range(row):
+        print("*",end="")
+    row-=1
+    print()
+'''
+
+n = int(input())
+for i in range(n):
+    print("*"*(n-i))

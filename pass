@@ -1,0 +1,7 @@
+print("1")
+
+if 3>2:
+    pass
+    print("2")
+
+print("3")

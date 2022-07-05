@@ -1,0 +1,18 @@
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+col = 5 #세로줄 개수
+row = 1 #별 개수
+blk = col-1 #공백 개수
+
+for i in range(col): #세로줄 개수만큼 반복
+    for j in range(blk): #공백 개수만큼 반복
+        print(' ',end='')
+    blk-=1
+    for k in range(row): #별 개수만큼 반복
+        print('*',end='')
+    row+=2
+    print()

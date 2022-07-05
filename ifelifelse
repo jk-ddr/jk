@@ -1,0 +1,18 @@
+from genericpath import samestat
+
+
+eng = input()
+if eng=="SAMSUNG":
+    print("삼성")
+elif eng=="LG":
+    print("엘쥐")
+elif eng==":KAKAO":
+    print("카카오")
+elif eng=="NAVER":
+    print("네이버")
+elif eng=="HYUNDAI":
+    print("현대")
+elif eng=="SK":
+    print("에스케이")
+else:
+    print("그 외")

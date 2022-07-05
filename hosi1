@@ -1,0 +1,13 @@
+# *****
+# *****
+# *****
+# *****
+# *****
+
+col = 5
+row = 5
+
+for i in range(col):
+    for j in range(row):
+        print("*",end="")
+    print()

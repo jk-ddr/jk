@@ -1,0 +1,9 @@
+
+from ast import Str
+
+str = "강한친구 대한육군"
+def prints():
+    print(str)
+
+prints()
+print(str)

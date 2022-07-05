@@ -1,0 +1,19 @@
+'''
+*
+**
+***
+****
+*****
+'''
+'''
+col_num = 5
+row_num = 1
+for col in range(col_num):
+    for row in range(row_num):
+        print("*",end="")
+    print()
+    row_num+=1
+'''
+n = int(input())
+for i in range(1,n+1):
+    print("*"*i)

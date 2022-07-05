@@ -1,0 +1,7 @@
+def multiply(argA, argB, argC):
+    value = argA*argB*argC
+    return value
+
+value = multiply(1,2,3,)
+
+print(value)

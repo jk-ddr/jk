@@ -1,0 +1,17 @@
+#     *****
+#    *****
+#   *****
+#  *****
+# *****
+
+col = 5
+row = 5
+blk = col-1
+
+for i in range(col): #세로줄 개수만큼 반복
+    for j in range(blk): #공백 개수만큼 반복
+        print(' ',end='')
+    blk-=1
+    for k in range(row): #가로줄 개수만큼 반복
+        print('*',end='')
+    print()

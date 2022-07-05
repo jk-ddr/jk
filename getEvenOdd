@@ -1,0 +1,11 @@
+# 입력 값의 홀, 짝 여부 판별 후
+# 출력 : "짝수" or "홀수"
+def getEvenOdd(argvalue):
+    if argvalue%2==0:
+        print("짝수")
+    else:
+        print("홀수")
+
+getEvenOdd(2)
+
+getEvenOdd(3)

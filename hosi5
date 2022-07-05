@@ -1,0 +1,28 @@
+#     *
+#    * *
+#   *   *
+#  *     *
+# *********
+
+col = 5
+outblk = col-1
+inblk = 1
+
+for i in range(col):             #세로줄 개수만큼 반복
+    if i == 0:                   #첫번째 줄
+        for a in range(outblk):
+            print(' ',end='')
+        outblk-=1
+        print('*')
+    elif i == col-1:             #마지막 줄
+        for b in range(2*col-1):
+            print("*",end="")
+    else:
+        for c in range(outblk):
+            print(" ", end="")
+        outblk-=1
+        print("*",end="")
+        for d in range(inblk):
+            print(" ", end="")
+        inblk+=2
+        print("*")

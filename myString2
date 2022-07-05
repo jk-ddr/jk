@@ -1,0 +1,6 @@
+MyString = "It is a great weather with you"
+count = 1
+for i in MyString:
+    if i == " ":
+        count += 1
+print("문자열 단어 갯수 : ", count)

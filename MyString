@@ -1,0 +1,6 @@
+MyString = "hello hyundai hoho"
+count = 0
+for i in MyString:
+    if i == "h":
+        count += 1
+print("문자열 내 h의 갯수 : ", count)

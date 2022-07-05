@@ -1,0 +1,11 @@
+'''
+if input ("남자"):
+    print ("MAN")
+if input ("여자"):
+    print ("WOMAN")
+'''
+str = input()
+if (str == "남자"):
+    print ("MAN")
+if (str == "여자"):
+    print ("WOMAN")

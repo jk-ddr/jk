@@ -1,0 +1,5 @@
+# *****
+
+star = 5 #별 개수
+for i in range(star):
+    print("*",end="")

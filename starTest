@@ -1,0 +1,13 @@
+N = int(input())
+
+Ans = []
+i = N//2; j = N//2
+while 0<=i and j<N:
+    Ans.append([''for _ in range(N)])
+    Ans[-1][i] = '*'
+    Ans[-1][j] = '*'
+    i -= 1; j += 1
+Ans[-1] = ['*'for _ in range(N)]
+
+for i in Ans:
+    print(''.join(i))

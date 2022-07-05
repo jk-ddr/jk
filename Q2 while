@@ -1,0 +1,26 @@
+i = 0
+j = 0
+k = 0
+while True:
+    if k<3:
+        while True:
+            if i<5:
+                while True:
+                    if j<5:
+                        print("*",end="")
+                        j+=1
+                    else:
+                        j = 0
+                        print()
+                        break
+                i+=1
+            else:
+                i = 0
+                if k==2:
+                    pass
+                else:
+                    print()
+                break
+        k+=1
+    else:
+        break

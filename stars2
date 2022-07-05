@@ -1,0 +1,12 @@
+#세로 반복
+cnt=4
+for row in range(5):
+    #가로 반복
+    #공백 반복 4, 3, 2, 1, 0 cnt
+    for i in range(row):
+        print(" ",end="")
+        cnt-=1    
+    print()
+    #별 반복
+    for col in range(5):
+        print("*",end="")

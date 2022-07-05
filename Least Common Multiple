@@ -1,0 +1,6 @@
+num = 1
+while True:
+    if num%7==0 and num%11==0:
+        print("7과 11의 최소공배수는 : "+str(num))
+        break
+    num+=1

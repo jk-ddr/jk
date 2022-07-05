@@ -1,0 +1,44 @@
+'''
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+'''
+'''
+col = 5
+row = 1
+blk = (col*2)-2
+
+for i in range(col):
+    for j in range(row):
+        print("*",end="")
+    for k in range(blk):
+        print(" ",end="")
+    blk-=2
+    for i in range(row):
+        print("*",end="")
+    print()
+    row+=1
+row-=2
+blk+=4
+for m in range(col-1):
+    for n in range(row):
+        print("*",end="")
+    for o in range(blk):
+        print(" ",end="")
+    blk+=2
+    for p in range(row):
+        print("*",end="")
+    print()
+    row-=1
+'''
+n = int(input())
+for i in range(1,n+1):
+    print("*"*i+" "*((n-i)*2)+"*"*i)
+for j in range(n-1):
+    print("*"*(n-1-j)+" "*((j+1)*2)+"*"*(n-1-j))

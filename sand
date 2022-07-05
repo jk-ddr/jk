@@ -1,0 +1,64 @@
+'''
+n = int(input())
+for i in range(n): #세로줄 수만큼 반복
+    for j in range(i): #공백 i개 출력
+        print(" ",end="")
+    if i==0 or i==n-1: # 별 출력
+        for k in range((n-i)*2-1):
+            print("*",end="")
+        print()
+    else:
+        print("*",end="")
+        for l in range((n-i)*2-3): #사이 공백 출력
+            print(" ",end="")
+        print("*")
+for m in range(1,n):
+    for o in range(n-m-1): #공백 출력
+        print(" ",end="")
+    if m==n-1: #별 출력
+        for p in range(n*2-1):
+            print("*",end="")
+    else:
+        print("*",end="")
+        for q in range(m*2-1):
+            print(" ",end="")
+        print("*")
+
+n = int(input())
+for a in range(2*n-1):
+    if a<n: 
+        print(" "*a,end="")
+        if a==0 or a==n-1:
+            print("*"*(2*(n-a)-1))
+        else:
+            print("*"+" "*(2*(n-a)-3)+"*")
+    else:
+        print(" "*((2*n-1)-a-1),end="")
+        if a==2*n-2:
+            print("*"*(2*(a-n)+3))
+        else:
+            print("*"+" "*(2*(a-n)+1)+"*")
+'''
+
+n=int(input())
+row = n
+col = n
+
+for col_cnt in range(col):
+    for row_cnt in range(row):
+        if col_cnt==row_cnt or col_cnt+row_cnt==n-1 or col_cnt==0 or col_cnt==n-1:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
+
+
+'''
+if a==0 or a==n:
+    전부 출력
+a->n
+(n+1,n+1)
+(a,n+1)
+'''
+
+

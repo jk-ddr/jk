@@ -1,0 +1,13 @@
+# *****
+# *****
+# *****
+# *****
+# *****
+
+star = 25
+row = 5
+
+for i in range(star):
+    print("*",end="")
+    if (i+1)%row == 0:
+        print()

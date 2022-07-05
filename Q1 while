@@ -1,0 +1,17 @@
+n = int(input("양의 정수를 입력 하세요"))
+i = 1
+j = 1
+while True:
+    if i<=n:
+        while True:
+            if j<=i:
+                print(j,end=" ")
+                j+=1
+            else:
+                j = 1
+                break
+        print()
+        i+=1
+    else:
+        break
+    
